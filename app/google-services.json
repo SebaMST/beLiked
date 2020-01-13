@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "980887976608",
+    "firebase_url": "https://beliked.firebaseio.com",
+    "project_id": "beliked",
+    "storage_bucket": "beliked.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980887976608:android:72f0e893614d2073d367c5",
+        "android_client_info": {
+          "package_name": "com.example.abesg.beliked"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980887976608-t1b2pliag85ms11d7gkk3hc8ao2ckd06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abesg.beliked",
+            "certificate_hash": "facfcb3181fd3e6a3bcf3442cec0802d9d7afd64"
+          }
+        },
+        {
+          "client_id": "980887976608-0iv4u5a01fej6400mihsltu31iif9u1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFVisg4KDRaw4gFcn1d-foVD_CrTKp_TI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980887976608-0iv4u5a01fej6400mihsltu31iif9u1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#207FB0</color>
+    <color name="colorPrimaryDark">#234d63</color>
+    <color name="colorAccent">#207FB0</color>
+
+    <color name="grey">#bebebe</color>
+    <color name="grey_lighter">#cacaca</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="link_blue">#207FB0</color>
+    <color name="darkRed">#a30303</color>
+</resources>
