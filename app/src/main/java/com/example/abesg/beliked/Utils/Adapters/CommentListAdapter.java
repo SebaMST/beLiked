@@ -41,8 +41,7 @@ public class CommentListAdapter extends ArrayAdapter<Comment> {
     private int layoutResource;
     private Context mContext;
 
-    public CommentListAdapter(@NonNull Context context, @LayoutRes int resource,
-                              @NonNull List<Comment> objects) {
+    public CommentListAdapter(@NonNull Context context, @LayoutRes int resource, @NonNull List<Comment> objects) {
         super(context, resource, objects);
         mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         mContext = context;
@@ -131,10 +130,6 @@ public class CommentListAdapter extends ArrayAdapter<Comment> {
         return convertView;
     }
 
-    /**
-     * Returns a string representing the number of days ago the post was made
-     * @return
-     */
     private String getTimestampDifference(Comment comment){
         Log.d(TAG, "getTimestampDifference: getting timestamp difference.");
 

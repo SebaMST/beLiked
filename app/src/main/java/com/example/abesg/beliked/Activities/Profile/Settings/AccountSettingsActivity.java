@@ -18,8 +18,8 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 
 import com.example.abesg.beliked.R;
-import com.example.abesg.beliked.Utils.BottomNavigationViewHelper;
-import com.example.abesg.beliked.Utils.Adapters.FirebaseManager;
+import com.example.abesg.beliked.Utils.GUI.BottomNavigationViewHelper;
+import com.example.abesg.beliked.Utils.FirebaseManager;
 import com.example.abesg.beliked.Utils.Adapters.SectionsStatePagerAdapter;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 

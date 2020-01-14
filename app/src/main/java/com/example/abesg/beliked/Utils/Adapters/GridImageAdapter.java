@@ -11,7 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ProgressBar;
 
 import com.example.abesg.beliked.R;
-import com.example.abesg.beliked.Utils.SquareImageView;
+import com.example.abesg.beliked.Utils.GUI.SquareImageView;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;

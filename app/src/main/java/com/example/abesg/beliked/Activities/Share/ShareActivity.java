@@ -13,8 +13,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.abesg.beliked.R;
-import com.example.abesg.beliked.Utils.BottomNavigationViewHelper;
-import com.example.abesg.beliked.Utils.Permissions;
+import com.example.abesg.beliked.Utils.GUI.BottomNavigationViewHelper;
+import com.example.abesg.beliked.Utils.Other.Permissions;
 import com.example.abesg.beliked.Utils.Adapters.SectionsPagerAdapter;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 

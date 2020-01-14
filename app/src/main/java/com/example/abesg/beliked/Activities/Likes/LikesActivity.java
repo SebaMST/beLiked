@@ -1,7 +1,6 @@
 package com.example.abesg.beliked.Activities.Likes;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -10,20 +9,16 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ImageView;
 
-import com.example.abesg.beliked.Activities.Profile.ProfileActivity;
-import com.example.abesg.beliked.Activities.Profile.ProfileFragment;
-import com.example.abesg.beliked.Activities.Profile.Settings.AccountSettingsActivity;
 import com.example.abesg.beliked.Models.Comment;
 import com.example.abesg.beliked.Models.Like;
 import com.example.abesg.beliked.Models.Photo;
 import com.example.abesg.beliked.R;
-import com.example.abesg.beliked.Utils.Adapters.FirebaseManager;
+import com.example.abesg.beliked.Utils.FirebaseManager;
 import com.example.abesg.beliked.Utils.Adapters.GridImageAdapter;
-import com.example.abesg.beliked.Utils.BottomNavigationViewHelper;
+import com.example.abesg.beliked.Utils.GUI.BottomNavigationViewHelper;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;

@@ -25,7 +25,7 @@
         </activity>
         <activity android:name=".Activities.Likes.LikesActivity"></activity>
         <activity android:name=".Activities.Profile.ProfileActivity"></activity>
-        <activity android:name=".Activities.Profile.Settings.AccountSettingsActivity"></activity>
+        <activity android:name=".Activities.Profile.Settings.AccountSettingsActivity" android:noHistory="true"></activity>
         <activity android:name=".Activities.Login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,4 +1,4 @@
-package com.example.abesg.beliked.Utils.Adapters;
+package com.example.abesg.beliked.Utils;
 
 import android.content.Context;
 import android.content.Intent;

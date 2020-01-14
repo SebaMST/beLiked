@@ -1,7 +1,6 @@
 package com.example.abesg.beliked.Activities.Fragments;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -19,7 +18,6 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.abesg.beliked.Activities.Profile.Settings.AccountSettingsActivity;
 import com.example.abesg.beliked.Models.Comment;
 import com.example.abesg.beliked.Models.Like;
 import com.example.abesg.beliked.Models.Photo;
@@ -27,9 +25,9 @@ import com.example.abesg.beliked.Models.User;
 import com.example.abesg.beliked.Models.UserAccountSettings;
 import com.example.abesg.beliked.Models.UserSettings;
 import com.example.abesg.beliked.R;
-import com.example.abesg.beliked.Utils.BottomNavigationViewHelper;
+import com.example.abesg.beliked.Utils.GUI.BottomNavigationViewHelper;
 import com.example.abesg.beliked.Utils.Adapters.GridImageAdapter;
-import com.example.abesg.beliked.Utils.UniversalImageLoader;
+import com.example.abesg.beliked.Utils.GUI.UniversalImageLoader;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;

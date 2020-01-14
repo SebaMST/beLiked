@@ -14,9 +14,8 @@ import android.widget.Button;
 
 import com.example.abesg.beliked.Activities.Profile.Settings.AccountSettingsActivity;
 import com.example.abesg.beliked.R;
-import com.example.abesg.beliked.Utils.Permissions;
+import com.example.abesg.beliked.Utils.Other.Permissions;
 
-import static android.app.Activity.RESULT_CANCELED;
 import static android.app.Activity.RESULT_OK;
 
 /**

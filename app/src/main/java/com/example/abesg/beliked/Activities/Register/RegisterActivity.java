@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import com.example.abesg.beliked.Models.User;
 import com.example.abesg.beliked.R;
-import com.example.abesg.beliked.Utils.Adapters.FirebaseManager;
+import com.example.abesg.beliked.Utils.FirebaseManager;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -101,17 +101,6 @@ public class RegisterActivity extends AppCompatActivity {
         mContext = RegisterActivity.this;
         mProgressBar.setVisibility(View.GONE);
 
-    }
-
-    private boolean isStringNull(String string){
-        Log.d(TAG, "isStringNull: checking string if null.");
-
-        if(string.equals("")){
-            return true;
-        }
-        else{
-            return false;
-        }
     }
 
      /*

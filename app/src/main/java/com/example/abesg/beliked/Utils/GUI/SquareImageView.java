@@ -1,4 +1,4 @@
-package com.example.abesg.beliked.Utils;
+package com.example.abesg.beliked.Utils.GUI;
 
 import android.content.Context;
 import android.support.v7.widget.AppCompatImageView;

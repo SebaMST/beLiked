@@ -19,7 +19,7 @@ import android.widget.ListView;
 import com.example.abesg.beliked.Activities.Profile.ProfileActivity;
 import com.example.abesg.beliked.Models.User;
 import com.example.abesg.beliked.R;
-import com.example.abesg.beliked.Utils.BottomNavigationViewHelper;
+import com.example.abesg.beliked.Utils.GUI.BottomNavigationViewHelper;
 import com.example.abesg.beliked.Utils.Adapters.UserListAdapter;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

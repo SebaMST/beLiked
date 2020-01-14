@@ -1,4 +1,4 @@
-package com.example.abesg.beliked.Utils;
+package com.example.abesg.beliked.Utils.GUI;
 
 import android.app.Activity;
 import android.content.Context;
